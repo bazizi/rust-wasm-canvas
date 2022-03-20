@@ -1,0 +1,1 @@
+cls && npm run build && npm start
