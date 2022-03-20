@@ -1,3 +1,6 @@
+## About
+This repository is a minimal example of Rust code interacting with HTML5 [canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) using [wasm-bindgen](https://github.com/rustwasm/wasm-bindgen) and [CanvasRenderingContext2d](https://rustwasm.github.io/wasm-bindgen/api/web_sys/struct.CanvasRenderingContext2d.html#) from the [web_sys](https://rustwasm.github.io/wasm-bindgen/api/web_sys/#) crate.
+
 ## How to install
 
 ```sh
