@@ -1,12 +1,12 @@
 # You must change these to your own details.
 [package]
-name = "rust-webpack-template"
-description = "My super awesome Rust, WebAssembly, and Webpack project!"
+name = "rust-wasm-canvas"
+description = "HTML5 canvas and Rust/WASM"
 version = "0.1.0"
-authors = ["You <you@example.com>"]
+authors = ["bazizi.github.io"]
 categories = ["wasm"]
 readme = "README.md"
-edition = "2018"
+edition = "2022"
 
 [lib]
 crate-type = ["cdylib"]
@@ -23,7 +23,7 @@ lto = true
 [dependencies]
 # The `wasm-bindgen` crate provides the bare minimum functionality needed
 # to interact with JavaScript.
-wasm-bindgen = "0.2.45"
+wasm-bindgen = "0.2.79"
 
 # `wee_alloc` is a tiny allocator for wasm that is only ~1K in code size
 # compared to the default allocator's ~10K. However, it is slower than the default
@@ -40,6 +40,9 @@ features = [
   'Element',
   'HtmlCanvasElement',
   'Window',
+  'console',
+  'Crypto',
+  'HtmlImageElement'
 ]
 
 # The `console_error_panic_hook` crate provides better debugging of panics by

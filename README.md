@@ -7,6 +7,9 @@ This repository is a minimal example of Rust code interacting with HTML5 [canvas
 npm install
 ```
 
+## Prerequisite
+Make sure you have [wasm-pack](https://github.com/rustwasm/wasm-pack) installed.
+
 ## How to run in debug mode
 
 ```sh
